@@ -15,6 +15,10 @@
     display: none;
 }
 
+#click{
+    display: none;
+}
+
 #click:checked~.navbar ul{
     display: block;
 }
@@ -25,5 +29,23 @@
     }
     .navbar ul{
         display: none;
+        position: absolute;
+        top: 90px;
+        right: 100px;
     }
+
+    .navbar ul li{
+        padding: 10px;
+        font-size: larger;
+        background-color: lawngreen;
+    }
+}
+
+.para h1{
+    font-family: "Josefin Sans", serif;
+}
+
+.para p{
+    font-family: "Dancing Script", serif;
+
 }
