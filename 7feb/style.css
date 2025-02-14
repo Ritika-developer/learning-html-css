@@ -1,0 +1,19 @@
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: red;
+}
+
+.ch1,.ch2,.ch3{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+@media screen and (max-width:500px) {
+    .wrapper{
+        flex-direction: column;
+    }
+}
