@@ -1,0 +1,22 @@
+.navbar{
+  background-color:aqua;
+  display:flex;
+  position: sticky;
+  top: 0;
+  justify-content: space-evenly;
+  
+}
+
+h1{
+  padding-left: 20px;
+}
+
+.navbar ul{
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.ulli li{
+  list-style: none;
+}

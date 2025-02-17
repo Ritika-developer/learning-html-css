@@ -1,0 +1,23 @@
+body{
+  BACKGROUND-COLOR:DEEPPINK;
+}
+.head1{
+  text-shadow: 5px 7px 15px black;
+  font-size: 100px;
+  font-family:verdana;
+  text-align: center;
+  color: white;
+}
+a{
+  font-size: 100px;
+ color:black;
+ text-decoration: none;
+text-shadow: 3px 4px 12px black;
+
+  
+}
+aside img{
+  height:200px; 
+  border-radius:200px; 
+  text-shadow:5px 6px 15px black;
+}

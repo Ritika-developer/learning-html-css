@@ -1,0 +1,17 @@
+.parent{
+  background-color: firebrick;
+  display: grid;
+  grid-template-columns:repeat(2,auto);
+  align-items:center;
+  
+}
+
+.ch1{
+  background-color: moccasin;
+  display: flex;
+}
+
+.ch1,.ch2{
+  border:2px solid black;
+  align-items: center;
+}

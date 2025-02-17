@@ -1,0 +1,28 @@
+.para::first-letter{
+  font-size:40px;
+  color:#5AD0C8;
+}
+.para::first-line{
+  font-weight: bold;
+}
+.para::selection{
+  background-color:#5AD087;
+  color:black;
+}
+input::placeholder{
+  color:red;
+}
+input {
+  background-color: transparent;
+  outline:none;
+border:2px solid greenyellow;
+ box-shadow:2px 3px 12px 1px greenyellow ;/*inset: 2px 3px 12px 3px greenyellow; */
+}
+h1::before{
+  content:"MISS ";
+  color:#BF5AD0;
+}
+h1::after{
+  content:" CHOUDHARY";
+  color:#D0C65A;
+}

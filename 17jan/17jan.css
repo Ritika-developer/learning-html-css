@@ -1,0 +1,23 @@
+.parent{
+  background-color: black;
+  color:white;
+ padding:10px;
+ margin-bottom: 20px;
+}
+.parent1{
+background-color: blue;
+color:white;
+padding:10px;
+margin-bottom: 20px;
+}
+.div1{
+  background-color:hotpink;
+  height: 200px;
+  box-shadow:2px 5px 12px 5px  black ;
+  border-radius:20px;
+  width:150px;
+}
+.div1 img{
+  height:180px;
+  padding:10px;
+}
